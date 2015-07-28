@@ -1,0 +1,171 @@
+$bg: #2A303C;
+$nav: #C35555;
+$search: #864D4D;
+$code: #4D535F;
+$textC0: #fff;
+$textC1: #e0e0e0;
+$textC2: #cb3837;
+
+body {
+	background: $bg;
+	color: $textC0;
+}
+a,
+.ad a.quiet,
+#npm-loves-you {
+	color: $nav
+}
+nav,
+nav a {
+	background: $nav;
+}
+header {
+	border-bottom: 1px solid transparent;
+}
+#npm-search {
+	background: transparent;
+	border: 1px solid $search;
+}
+#npm-search:hover {
+	border: 1px solid $nav;
+}
+#site-search-submit {
+	border-left: 1px solid transparent;
+}
+.autocomplete-suggestions {
+	background: $bg;
+}
+.autocomplete-group {
+	color: $nav;
+}
+.autocomplete-selected {
+	background: $search;
+}
+.stat:before,
+.package-widget a.name:before {
+	color: $nav;
+}
+h2.ruled,
+footer h3 {
+	border-bottom: 2px solid $textC0;
+}
+.box li {
+	border-bottom: 2px solid $search;
+}
+form.star input[type=checkbox] + label:before {
+	color: rgba(255, 255, 255, 0.3);
+}
+code {
+	background-color: $code;
+}
+.markdown >h2.deep-link a:before,
+.markdown h3.deep-link a:before,
+.markdown h4.deep-link a:before,
+.markdown h5.deep-link a:before,
+.markdown h6.deep-link a:before {
+	color: $bg;
+}
+.markdown >h2.deep-link a:hover:before,
+.markdown h3.deep-link a:hover:before,
+.markdown h4.deep-link a:hover:before,
+.markdown h5.deep-link a:hover:before,
+.markdown h6.deep-link a:hover:before {
+	color: $nav;
+}
+blockquote {
+	color: $textC1;
+}
+.markdown td,
+.markdown th {
+	background: $code;
+}
+.pagination a {
+	border: 1px solid #cb3837;
+}
+
+
+
+
+
+//editor
+.highlight {
+	background-color: $code;
+    color: $textC0;
+}
+.storage,
+.keyword,
+.storage.type
+{ color: $textC0 }
+
+.support.constant,
+.support.function,
+.support.type,
+.entity.other.attribute-name,
+.constant.language,
+.meta.structure.dictionary.json > .string.quoted.double.json,
+.meta.structure.dictionary.json > .string.quoted.double.json .punctuation.string
+{ color: #BDCCF7 }
+
+.string,
+.constant.numeric,
+.entity.name.function
+{ color: #FB9DB5 }
+
+.support.class,
+.variable,
+.entity.name.tag
+{ color: #82C7C7 }
+
+
+
+
+
+//sidebar
+.npm-install:before,
+.autoselect-wrapper > input[type=text],
+.box,
+.sidebar a,
+.npm-install:before
+{ color: $textC1 }
+
+.sidebar h3,
+.sidebar h3 a
+{ color: $nav }
+
+
+
+
+
+// text #fff
+h1,
+h2,
+h3,
+input[type=text],
+input[type=search],
+input[type=email],
+input[type=password],
+.stat strong,
+.package-widget a.name,
+.package-widget .quiet a,
+.centered.ruled > a,
+.columnar h3 a,
+.columnar .links a,
+.package-name a,
+.markdown > h1 a,
+.markdown >h2 a,
+.markdown h3 a,
+.markdown h4 a,
+.markdown h5 a,
+.markdown h6 a
+.markdown >h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6
+{ color: $textC0 }
+
+// text #e0e0e0
+.stat,
+.package-widget p,
+.package-widget .quiet
+{ color: $textC1 }

@@ -1,0 +1,175 @@
+body {
+  background: #2A303C;
+  color: #fff;
+}
+
+a,
+.ad a.quiet,
+#npm-loves-you {
+  color: #C35555;
+}
+
+nav,
+nav a {
+  background: #C35555;
+}
+
+header {
+  border-bottom: 1px solid transparent;
+}
+
+#npm-search {
+  background: transparent;
+  border: 1px solid #864D4D;
+}
+
+#npm-search:hover {
+  border: 1px solid #C35555;
+}
+
+#site-search-submit {
+  border-left: 1px solid transparent;
+}
+
+.autocomplete-suggestions {
+  background: #2A303C;
+}
+
+.autocomplete-group {
+  color: #C35555;
+}
+
+.autocomplete-selected {
+  background: #864D4D;
+}
+
+.stat:before,
+.package-widget a.name:before {
+  color: #C35555;
+}
+
+h2.ruled,
+footer h3 {
+  border-bottom: 2px solid #fff;
+}
+
+.box li {
+  border-bottom: 2px solid #864D4D;
+}
+
+form.star input[type=checkbox] + label:before {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+code {
+  background-color: #4D535F;
+}
+
+.markdown > h2.deep-link a:before,
+.markdown h3.deep-link a:before,
+.markdown h4.deep-link a:before,
+.markdown h5.deep-link a:before,
+.markdown h6.deep-link a:before {
+  color: #2A303C;
+}
+
+.markdown > h2.deep-link a:hover:before,
+.markdown h3.deep-link a:hover:before,
+.markdown h4.deep-link a:hover:before,
+.markdown h5.deep-link a:hover:before,
+.markdown h6.deep-link a:hover:before {
+  color: #C35555;
+}
+
+blockquote {
+  color: #e0e0e0;
+}
+
+.markdown td,
+.markdown th {
+  background: #4D535F;
+}
+
+.pagination a {
+  border: 1px solid #cb3837;
+}
+
+.highlight {
+  background-color: #4D535F;
+  color: #fff;
+}
+
+.storage,
+.keyword,
+.storage.type {
+  color: #fff;
+}
+
+.support.constant,
+.support.function,
+.support.type,
+.entity.other.attribute-name,
+.constant.language,
+.meta.structure.dictionary.json > .string.quoted.double.json,
+.meta.structure.dictionary.json > .string.quoted.double.json .punctuation.string {
+  color: #BDCCF7;
+}
+
+.string,
+.constant.numeric,
+.entity.name.function {
+  color: #FB9DB5;
+}
+
+.support.class,
+.variable,
+.entity.name.tag {
+  color: #82C7C7;
+}
+
+.npm-install:before,
+.autoselect-wrapper > input[type=text],
+.box,
+.sidebar a,
+.npm-install:before {
+  color: #e0e0e0;
+}
+
+.sidebar h3,
+.sidebar h3 a {
+  color: #C35555;
+}
+
+h1,
+h2,
+h3,
+input[type=text],
+input[type=search],
+input[type=email],
+input[type=password],
+.stat strong,
+.package-widget a.name,
+.package-widget .quiet a,
+.centered.ruled > a,
+.columnar h3 a,
+.columnar .links a,
+.package-name a,
+.markdown > h1 a,
+.markdown > h2 a,
+.markdown h3 a,
+.markdown h4 a,
+.markdown h5 a,
+.markdown h6 a
+.markdown > h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  color: #fff;
+}
+
+.stat,
+.package-widget p,
+.package-widget .quiet {
+  color: #e0e0e0;
+}
