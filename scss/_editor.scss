@@ -1,0 +1,28 @@
+//editor
+.highlight {
+	background-color: $code;
+    color: $textC0;
+}
+.storage,
+.keyword,
+.storage.type
+{ color: $textC0 }
+
+.support.constant,
+.support.function,
+.support.type,
+.entity.other.attribute-name,
+.constant.language,
+.meta.structure.dictionary.json > .string.quoted.double.json,
+.meta.structure.dictionary.json > .string.quoted.double.json .punctuation.string
+{ color: #BDCCF7 }
+
+.string,
+.constant.numeric,
+.entity.name.function
+{ color: #FB9DB5 }
+
+.support.class,
+.variable,
+.entity.name.tag
+{ color: #82C7C7 }

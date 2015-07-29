@@ -1,0 +1,131 @@
+@import 'vars', 'editor', 'package-sidebar', 'docs-page';
+
+body,
+.autocomplete-suggestions {
+	background: $bg;
+}
+nav,
+nav a {
+	background: $nav;
+}
+header {
+	border-bottom: 1px solid transparent;
+}
+#npm-search {
+	background: transparent;
+	border: 1px solid $search;
+}
+#npm-search:hover {
+	border: 1px solid $nav;
+}
+#site-search-submit {
+	border-left: 1px solid transparent;
+}
+.autocomplete-selected {
+	background: $search;
+}
+h2.ruled,
+footer h3 {
+	border-bottom: 2px solid $textC0;
+}
+.box li {
+	border-bottom: 2px solid $search;
+}
+form.star input[type=checkbox] + label:before {
+	color: rgba(255, 255, 255, 0.3);
+}
+code {
+	background-color: $code;
+}
+.markdown >h2.deep-link a:before,
+.markdown h3.deep-link a:before,
+.markdown h4.deep-link a:before,
+.markdown h5.deep-link a:before,
+.markdown h6.deep-link a:before {
+	color: $bg;
+}
+.markdown td,
+.markdown th {
+	background: $code;
+}
+.pagination a {
+	border: 1px solid $textC2;
+}
+input,
+textarea {
+	background-color: transparent;
+}
+input[type=text],
+input[type=search],
+input[type=email],
+input[type=password],
+textarea {
+	border: 1px solid $nav;
+}
+input[type=submit]:hover, .button:hover {
+	background: $nav;
+}
+
+
+
+// text #fff
+body,
+h1, h2, h3, h4, h5, h6,
+input[type=text],
+input[type=search],
+input[type=email],
+input[type=password],
+.stat strong,
+.package-widget a.name,
+.package-widget .quiet a,
+.centered.ruled > a,
+.columnar h3 a,
+.columnar .links a,
+.package-name a,
+.markdown > h1 a,
+.markdown >h2 a,
+.markdown h3 a,
+.markdown h4 a,
+.markdown h5 a,
+.markdown h6 a
+.markdown >h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6,
+.markdown >h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6,
+label,
+textarea,
+hgroup h1 a,
+hgroup h2 a,
+h1.undecorated a,
+h2.undecorated a,
+h3.undecorated a
+{ color: $textC0 }
+
+// text #e0e0e0
+.stat,
+.package-widget p,
+.package-widget .quiet,
+blockquote,
+.help-text
+{ color: $textC1 }
+
+// text $nav
+a,
+.ad a.quiet,
+#npm-loves-you,
+.autocomplete-group,
+.stat:before,
+.package-widget a.name:before,
+.markdown >h2.deep-link a:hover:before,
+.markdown h3.deep-link a:hover:before,
+.markdown h4.deep-link a:hover:before,
+.markdown h5.deep-link a:hover:before,
+.markdown h6.deep-link a:hover:before,
+form p a:hover
+{ color: $nav }

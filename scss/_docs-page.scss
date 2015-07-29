@@ -1,0 +1,29 @@
+// body[data-page]
+[data-page] header {
+	background: $nav;
+}
+[data-page] nav,
+[data-page] nav a {
+	background: $bg;
+}
+[data-page] p.colophon {
+	border-top: 2px solid $nav;
+}
+[data-page] pre code {
+	background: none repeat scroll 0% 0% $code;
+}
+
+
+[data-page=index] h1,
+[data-page] footer p,
+[data-page] p.colophon,
+[data-page] nav h2 a,
+[data-page] pre code
+{ color: $textC0 }
+
+[data-page] nav .pages a
+{ color: $textC1 }
+
+[data-page] h1 a,
+[data-page] h2 a
+{ color: $nav }
