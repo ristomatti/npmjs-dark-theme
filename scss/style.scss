@@ -1,3 +1,5 @@
+@-moz-document domain("npmjs.com") {
+
 @import 'vars', 'editor', 'package-sidebar', 'docs-page';
 
 body,
@@ -129,3 +131,5 @@ a,
 .markdown h6.deep-link a:hover:before,
 form p a:hover
 { color: $nav }
+
+}
