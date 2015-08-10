@@ -51,7 +51,9 @@ code {
 	background: $code;
 }
 .pagination a {
-	border: 1px solid $textC2;
+	border: 1px solid $search;
+	background-color: $search;
+	color: $textC0;
 }
 input,
 textarea {
@@ -67,7 +69,13 @@ textarea {
 input[type=submit]:hover, .button:hover {
 	background: $nav;
 }
-
+.search-results .author {
+	color: $code;
+}
+.search-results .keywords,
+.search-results .stats {
+	color: $search;
+}
 
 
 // text #fff
