@@ -3,7 +3,21 @@ $bg: #2A303C;
 $nav: #C35555;
 $search: #864D4D;
 $code: #4D535F;
+
+// text
 $textC0: #fff;
 $textC1: #e0e0e0;
 $textC2: #cb3837;
 
+// btn
+$btn: #3b4354;
+$btn-hover: #4c566c;
+
+%btn {
+    background-color: $btn;
+    border-color: $btn;
+    &:hover {
+        background-color: $btn-hover;
+        border-color: $btn-hover;
+    }
+}

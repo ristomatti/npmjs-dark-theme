@@ -14,16 +14,22 @@
 }
 
 
-[data-page=index] h1,
+[data-page] h1,
 [data-page] footer p,
 [data-page] p.colophon,
 [data-page] nav h2 a,
-[data-page] pre code
+[data-page] pre code,
+[data-page] code
 { color: $textC0 }
 
+[data-page] h1.subtitle,
 [data-page] nav .pages a
 { color: $textC1 }
 
 [data-page] h1 a,
-[data-page] h2 a
+[data-page] h2 a,
+[data-page] h3 a,
+[data-page] h4 a,
+[data-page] h5 a,
+[data-page] h6 a,
 { color: $nav }

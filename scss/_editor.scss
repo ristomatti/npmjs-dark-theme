@@ -5,7 +5,10 @@
 }
 .storage,
 .keyword,
-.storage.type
+.storage.type,
+table th,
+table td,
+.css.support.property-name
 { color: $textC0 }
 
 .support.constant,
@@ -19,7 +22,10 @@
 
 .string,
 .constant.numeric,
-.entity.name.function
+.entity.name.function,
+.constant.character,
+.constant.other,
+.keyword.unit
 { color: #FB9DB5 }
 
 .support.class,

@@ -3,19 +3,24 @@
 @import 'vars', 'editor', 'package-sidebar', 'docs-page';
 
 body,
-.autocomplete-suggestions {
+.autocomplete-suggestions,
+.features-box,
+.calculator-module .calculator-module-premium-toggle {
 	background: $bg;
 }
-nav,
-nav a {
+body>nav,
+body>nav a {
 	background: $nav;
 }
-header {
+body>nav {
+    border-color: $bg;
+}
+body>header {
 	border-bottom: 1px solid transparent;
 }
 #npm-search {
 	background: transparent;
-	border: 1px solid $search;
+	border: 1px solid $nav;
 }
 #npm-search:hover {
 	border: 1px solid $nav;
@@ -23,12 +28,19 @@ header {
 #site-search-submit {
 	border-left: 1px solid transparent;
 }
+.autocomplete-suggestions {
+    border-color: $search;
+}
 .autocomplete-selected {
-	background: $search;
+	background: $nav;
+}
+#powered-by-constructor-io {
+    background-color: $bg;
+    border-color: $search;
 }
 h2.ruled,
 footer h3 {
-	border-bottom: 2px solid $textC0;
+	border-bottom: 2px solid $search;
 }
 .box li {
 	border-bottom: 2px solid $search;
@@ -47,13 +59,9 @@ code {
 	color: $bg;
 }
 .markdown td,
-.markdown th {
+.markdown th,
+.calculator-module .calculator-module-premium-toggle .calculator-module-premium-toggle-container {
 	background: $code;
-}
-.pagination a {
-	border: 1px solid $search;
-	background-color: $search;
-	color: $textC0;
 }
 input,
 textarea {
@@ -66,8 +74,10 @@ input[type=password],
 textarea {
 	border: 1px solid $nav;
 }
-input[type=submit]:hover, .button:hover {
-	background: $nav;
+.button,
+input[type=submit],
+.pagination a {
+    @extend %btn;
 }
 .search-results .author {
 	color: $code;
@@ -93,17 +103,12 @@ input[type=password],
 .columnar .links a,
 .package-name a,
 .markdown > h1 a,
-.markdown >h2 a,
+.markdown > h2 a,
 .markdown h3 a,
 .markdown h4 a,
 .markdown h5 a,
-.markdown h6 a
-.markdown >h2,
-.markdown h3,
-.markdown h4,
-.markdown h5,
-.markdown h6,
-.markdown >h2,
+.markdown h6 a,
+.markdown > h2,
 .markdown h3,
 .markdown h4,
 .markdown h5,
@@ -114,7 +119,9 @@ hgroup h1 a,
 hgroup h2 a,
 h1.undecorated a,
 h2.undecorated a,
-h3.undecorated a
+h3.undecorated a,
+.pagination a,
+.features-box .features-box-content ul
 { color: $textC0 }
 
 // text #e0e0e0
@@ -122,7 +129,8 @@ h3.undecorated a
 .package-widget p,
 .package-widget .quiet,
 blockquote,
-.help-text
+.help-text,
+.description
 { color: $textC1 }
 
 // text $nav
