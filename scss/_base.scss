@@ -76,12 +76,15 @@ input[type=submit],
 .pagination a {
     @extend %btn;
 }
+.search-results .name {
+	color: $name;
+}
 .search-results .author {
 	color: $code;
 }
 .search-results .keywords,
 .search-results .stats {
-	color: $search;
+	color: $textC2;
 }
 
 
