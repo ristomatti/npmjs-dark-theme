@@ -1,18 +1,21 @@
 // colors
-$bg: #2A303C;
-$nav: #C35555;
-$search: #864D4D;
-$code: #4D535F;
-$name: #DDDDDD;
+$bg: $background0;
+$nav: $base2;
+$search: $background1;
+$code: $background1;
+$name: $base2;
+$header-bg: $background1;
+$header-nav-menu-bg: $background2;
+$footer-bg: $background1;
 
 // text
-$textC0: #fff;
-$textC1: #e0e0e0;
-$textC2: #cb3837;
+$textC0: $base1;
+$textC1: $base2;
+$textC2: $magenta;
 
 // btn
-$btn: #3b4354;
-$btn-hover: #4c566c;
+$btn: $background1;
+$btn-hover: $background2;
 
 %btn {
     background-color: $btn;

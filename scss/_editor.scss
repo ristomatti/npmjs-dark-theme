@@ -18,7 +18,7 @@ table td,
 .constant.language,
 .meta.structure.dictionary.json > .string.quoted.double.json,
 .meta.structure.dictionary.json > .string.quoted.double.json .punctuation.string
-{ color: #BDCCF7 }
+{ color: $blue }
 
 .string,
 .constant.numeric,
@@ -26,9 +26,9 @@ table td,
 .constant.character,
 .constant.other,
 .keyword.unit
-{ color: #FB9DB5 }
+{ color: $cyan }
 
 .support.class,
 .variable,
 .entity.name.tag
-{ color: #82C7C7 }
+{ color: $blue }

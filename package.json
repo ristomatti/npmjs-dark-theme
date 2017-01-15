@@ -1,12 +1,12 @@
 {
-  "name": "npmjs-dark-theme",
-  "version": "1.0.0",
-  "description": "Dark theme for npmjs.com",
-  "main": "index.js",
+  "name": "npm-solarized-dark-grey",
+  "version": "0.1",
+  "description": "npm Solarized Dark Grey style",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp -- scss",
+    "watch": "gulp -- scss watch"
   },
-  "author": "rosivanov",
+  "author": "Ristomatti Airo <ristomatti@kallio.io>",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
