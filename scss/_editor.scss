@@ -1,34 +1,39 @@
 //editor
 .highlight {
-	background-color: $code;
-    color: $textC0;
+  background-color: $code;
+  color: $textC0;
 }
+
 .storage,
 .keyword,
 .storage.type,
 table th,
 table td,
-.css.support.property-name
-{ color: $textC0 }
+.css.support.property-name {
+  color: $textC0
+}
 
 .support.constant,
 .support.function,
 .support.type,
 .entity.other.attribute-name,
 .constant.language,
-.meta.structure.dictionary.json > .string.quoted.double.json,
-.meta.structure.dictionary.json > .string.quoted.double.json .punctuation.string
-{ color: $blue }
+.meta.structure.dictionary.json>.string.quoted.double.json,
+.meta.structure.dictionary.json>.string.quoted.double.json .punctuation.string {
+  color: $blue
+}
 
 .string,
 .constant.numeric,
 .entity.name.function,
 .constant.character,
 .constant.other,
-.keyword.unit
-{ color: $cyan }
+.keyword.unit {
+  color: $cyan
+}
 
 .support.class,
 .variable,
-.entity.name.tag
-{ color: $blue }
+.entity.name.tag {
+  color: $blue
+}

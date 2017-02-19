@@ -2,91 +2,115 @@ body,
 .autocomplete-suggestions,
 .features-box,
 .calculator-module .calculator-module-premium-toggle {
-	background: $bg;
+  background: $bg;
 }
+
 body>nav,
 body>nav a {
-	background: $nav;
+  background: $nav;
 }
+
 body>nav {
-    border-color: $bg;
+  border-color: $bg;
 }
+
 body>header {
-	border-bottom: 1px solid transparent;
+  border-bottom: 1px solid transparent;
 }
+
 #npm-search {
-	background: transparent;
-	border: 1px solid $background0;
+  background: transparent;
+  border: 1px solid $background0;
 }
+
 #npm-search:hover {
-	border: 1px solid $nav;
+  border: 1px solid $nav;
 }
+
 #site-search-submit {
-	border-left: 1px solid transparent;
+  border-left: 1px solid transparent;
 }
+
 .autocomplete-suggestions {
-    border-color: $search;
+  border-color: $search;
 }
+
 .autocomplete-selected {
-	background: $nav;
+  background: $nav;
 }
+
 #powered-by-constructor-io {
-    background-color: $bg;
-    border-color: $search;
+  background-color: $bg;
+  border-color: $search;
 }
+
 h2.ruled,
 footer h3 {
-	border-bottom: 2px solid $search;
+  border-bottom: 2px solid $search;
 }
+
 .box li {
-	border-bottom: 2px solid $search;
+  border-bottom: 2px solid $search;
 }
-form.star input[type=checkbox] + label:before {
-	color: rgba(255, 255, 255, 0.3);
+
+form.star input[type=checkbox]+label:before {
+  color: rgba(255, 255, 255, 0.3);
 }
-code {
-	background-color: $code;
+
+code,
+pre code,
+pre.editor {
+  background-color: $code;
+  color: $textC0;
+  padding: 10px;
 }
-.markdown >h2.deep-link a:before,
+
+.markdown>h2.deep-link a:before,
 .markdown h3.deep-link a:before,
 .markdown h4.deep-link a:before,
 .markdown h5.deep-link a:before,
 .markdown h6.deep-link a:before {
-	color: $bg;
+  color: $bg;
 }
+
 .markdown td,
 .markdown th,
 .calculator-module .calculator-module-premium-toggle .calculator-module-premium-toggle-container {
-	background: $code;
+  background: $code;
 }
+
 input,
 textarea {
-	background-color: transparent;
+  background-color: transparent;
 }
+
 input[type=text],
 input[type=search],
 input[type=email],
 input[type=password],
 textarea {
-	border: 1px solid $nav;
-	background-color: $bg;
+  border: 1px solid $nav;
+  background-color: $bg;
 }
+
 .button,
 input[type=submit],
 .pagination a {
-    @extend %btn;
-}
-.search-results .name {
-	color: $name;
-}
-.search-results .author {
-	color: $code;
-}
-.search-results .keywords,
-.search-results .stats {
-	color: $textC2;
+  @extend %btn;
 }
 
+.search-results .name {
+  color: $name;
+}
+
+.search-results .author {
+  color: $code;
+}
+
+.search-results .keywords,
+.search-results .stats {
+  color: $textC2;
+}
 
 // text #fff
 body,
@@ -97,7 +121,7 @@ input[type=password],
 .stat strong,
 .package-widget a.name,
 .package-widget .quiet a,
-.centered.ruled > a,
+.centered.ruled>a,
 .columnar h3 a,
 .columnar .links a,
 label,
@@ -108,8 +132,12 @@ h1.undecorated a,
 h2.undecorated a,
 h3.undecorated a,
 .pagination a,
-.features-box .features-box-content ul
-{ color: $textC0 }
+.features-box .features-box-content ul,
+.markdown p,
+.markdown li,
+.marketing {
+  color: $textC0
+}
 
 // text
 .stat,
@@ -117,55 +145,62 @@ h3.undecorated a,
 .package-widget .quiet,
 blockquote,
 .help-text,
-.description
-{ color: $textC0 }
+.description {
+  color: $textC0
+}
 
 // text $nav
 a,
-h1, h2, h3, h4, h5, h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 .package-name a,
 .ad a.quiet,
 #npm-loves-you,
 .autocomplete-group,
 .stat:before,
 .package-widget a.name:before,
-.markdown > h1 a,
-.markdown > h2 a,
+.markdown>h1 a,
+.markdown>h2 a,
 .markdown h3 a,
 .markdown h4 a,
 .markdown h5 a,
 .markdown h6 a,
-.markdown > h2,
+.markdown>h2,
 .markdown h3,
 .markdown h4,
 .markdown h5,
 .markdown h6,
-.markdown >h2.deep-link a:hover:before,
+.markdown>h2.deep-link a:hover:before,
 .markdown h3.deep-link a:hover:before,
 .markdown h4.deep-link a:hover:before,
 .markdown h5.deep-link a:hover:before,
 .markdown h6.deep-link a:hover:before,
-form p a:hover
-{ color: $nav }
+form p a:hover {
+  color: $nav
+}
 
 header {
-	border-bottom: 1px solid $base2;
-	background: $header-bg;
-	color: $textC0;
+  border-bottom: 1px solid $base2;
+  background: $header-bg;
+  color: $textC0;
 }
 
 header>.header-nav-menu-container {
-	background-color: $header-nav-menu-bg;
+  background-color: $header-nav-menu-bg;
 }
 
 footer {
-	&.bg-npm-navy-1 {
+  &.bg-npm-navy-1 {
     background-color: $footer-bg !important;
-	}
-	.type-neutral-11 {
-	  color: $textC1 !important;
-	}
-	.row .col-md-6 .type-npm-pastel-3 {
-			color: $nav !important;
-	}
+  }
+  .type-neutral-11 {
+    color: $textC1 !important;
+  }
+  .row .col-md-6 .type-npm-pastel-3 {
+    color: $nav !important;
+  }
 }
